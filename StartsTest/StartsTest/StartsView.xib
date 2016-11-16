@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2338c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StartsView">
+            <rect key="frame" x="0.0" y="0.0" width="467" height="87"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnG-d8-4Dj">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="NQ3-eA-S97"/>
+                        <constraint firstAttribute="height" constant="30" id="izH-RU-gIP"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="五角星-no"/>
+                    <state key="disabled" backgroundImage="五角星-yes"/>
+                    <state key="selected" backgroundImage="五角星-yes"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYo-fE-tUH">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="A2X-ko-ZfO"/>
+                        <constraint firstAttribute="width" constant="30" id="C6M-GI-Kg8"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="五角星-no"/>
+                    <state key="disabled" backgroundImage="五角星-yes"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th9-bc-PxF">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="1vc-aj-ydN"/>
+                        <constraint firstAttribute="height" constant="30" id="4ri-Be-hDY"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="五角星-no"/>
+                    <state key="disabled" backgroundImage="五角星-yes"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqf-JF-lZE">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5Ho-kT-TVk"/>
+                        <constraint firstAttribute="width" constant="30" id="QY0-OY-CtM"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="五角星-no"/>
+                    <state key="disabled" backgroundImage="五角星-yes"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWw-jo-1S4">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Gnn-2y-qkt"/>
+                        <constraint firstAttribute="height" constant="30" id="mwj-R4-ATh"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="五角星-no"/>
+                    <state key="disabled" backgroundImage="五角星-yes"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3nd-Rg-8JN">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="th9-bc-PxF" firstAttribute="trailing" secondItem="3nd-Rg-8JN" secondAttribute="trailing" id="5IL-HR-Ayh"/>
+                <constraint firstItem="QnG-d8-4Dj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="6Y0-GB-L49"/>
+                <constraint firstItem="th9-bc-PxF" firstAttribute="centerY" secondItem="yYo-fE-tUH" secondAttribute="centerY" id="6vC-UO-gHf"/>
+                <constraint firstItem="vWw-jo-1S4" firstAttribute="centerY" secondItem="kqf-JF-lZE" secondAttribute="centerY" id="8at-3c-Mct"/>
+                <constraint firstItem="yYo-fE-tUH" firstAttribute="centerY" secondItem="QnG-d8-4Dj" secondAttribute="centerY" id="Kzx-6g-jcO"/>
+                <constraint firstItem="3nd-Rg-8JN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NSB-8V-SGN"/>
+                <constraint firstItem="th9-bc-PxF" firstAttribute="leading" secondItem="yYo-fE-tUH" secondAttribute="trailing" constant="12" id="Rdd-6Z-i2h"/>
+                <constraint firstItem="QnG-d8-4Dj" firstAttribute="leading" secondItem="kqf-JF-lZE" secondAttribute="trailing" constant="12" id="Rg1-Tq-Ane"/>
+                <constraint firstItem="yYo-fE-tUH" firstAttribute="leading" secondItem="QnG-d8-4Dj" secondAttribute="trailing" constant="12" id="Xwo-v6-FbP"/>
+                <constraint firstItem="QnG-d8-4Dj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eH8-8t-eQ6"/>
+                <constraint firstItem="kqf-JF-lZE" firstAttribute="centerY" secondItem="QnG-d8-4Dj" secondAttribute="centerY" id="fJQ-31-xxF"/>
+                <constraint firstAttribute="bottom" secondItem="3nd-Rg-8JN" secondAttribute="bottom" id="ja7-Uh-Z5f"/>
+                <constraint firstItem="kqf-JF-lZE" firstAttribute="leading" secondItem="vWw-jo-1S4" secondAttribute="trailing" constant="12" id="knl-us-agx"/>
+                <constraint firstItem="3nd-Rg-8JN" firstAttribute="leading" secondItem="vWw-jo-1S4" secondAttribute="leading" id="zlD-ls-CLi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="panView" destination="3nd-Rg-8JN" id="3gn-Q4-8dn"/>
+                <outletCollection property="StartsBtns" destination="vWw-jo-1S4" id="ocd-eU-pL9"/>
+                <outletCollection property="StartsBtns" destination="kqf-JF-lZE" id="heg-f1-aQr"/>
+                <outletCollection property="StartsBtns" destination="QnG-d8-4Dj" id="XdN-Yn-AoU"/>
+                <outletCollection property="StartsBtns" destination="yYo-fE-tUH" id="gj3-XX-swk"/>
+                <outletCollection property="StartsBtns" destination="th9-bc-PxF" id="5nn-29-oSZ"/>
+            </connections>
+            <point key="canvasLocation" x="-17.5" y="-345.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="五角星-no" width="27" height="27"/>
+        <image name="五角星-yes" width="27" height="27"/>
+    </resources>
+</document>
