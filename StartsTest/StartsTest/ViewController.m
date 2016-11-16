@@ -15,6 +15,12 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
+    
+    
+    
+    
+    
     [super viewDidLoad];
     StartsView *startsView = [[[NSBundle mainBundle] loadNibNamed:@"StartsView" owner:self options:nil] objectAtIndex:0];
     startsView.frame = CGRectMake(0, 100, 300, 80);
