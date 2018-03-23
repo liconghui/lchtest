@@ -27,7 +27,9 @@
     [startsView addSwipeGesture];
     [self.view addSubview:startsView];
     
-    //liconghui shi nidaye 
+    //liconghui shi nidaye
+    
+//这次主要是合并主线到分支
     
     
 }
