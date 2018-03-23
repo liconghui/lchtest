@@ -27,6 +27,8 @@
     [startsView addSwipeGesture];
     [self.view addSubview:startsView];
     
+    //liconghui shi nidaye 
+    
     
 }
 
